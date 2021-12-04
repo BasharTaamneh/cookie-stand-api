@@ -24,7 +24,7 @@ urlpatterns = [
     path("api-auth/", include("rest_framework.urls")),
     path(
         "api/token/",
-         MyTokenObtainPairCustomView.as_view(),
+        MyTokenObtainPairCustomView.as_view(),
         name="token_obtain_pair",
     ),
     path(
